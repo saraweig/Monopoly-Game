@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    height: 98vh;
+    width: 99vw;
+    flex-direction: row;
+}
+
+#masseges {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+#cubeContainer{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cube {
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cube {
+    background-color: bisque;
+    border-radius: 20%;
+    height: 40%;
+    aspect-ratio: 1.1;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cube1 {
+    height: 90%;
+}
+
+#cube2container {
+    transform: rotate(60deg);
+}
+
+#cube2 {
+    height: 90%;
+}
+
+#soldier {
+    width: 25%;
+}
+
+.place {
+    border: 1px black solid;
+}
+
+.deg90 {
+    transform: rotate(90deg) translate(-25%, -16%);
+    border: 1px black solid;
+    height: 147%;
+    width: 68%;
+    margin: 0px;
+}
+
+.deg180 {
+    transform: rotate(180deg);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.deg270 {
+    transform: rotate(270deg) translate(25%, 16%);
+    height: 147%;
+    width: 68%;
+    margin: 0px;
+}
+
+#board {
+    height: 100%;
+    aspect-ratio: 1.1;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../pictures/background.JPG);
+    background-size: 100% 100%;
+}
+
+#board1 {
+    height: 20%;
+    display: grid;
+    grid-template-columns: 20% repeat(4, 15%) 20%;
+}
+
+#board2 {
+    height: 60%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+#deg90 {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+#center {
+    height: 100%;
+    aspect-ratio: 1.1;
+}
+
+#deg270 {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+#board3 {
+    height: 20%;
+    display: grid;
+    grid-template-columns: 20% repeat(4, 15%) 20%;
+}
+
+#players {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 22% 22% 22% 22%;
+}
+
+.player {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerName {
+    height: 45%;
+    width: 80%;
+    display: flex;
+}
+
+.playerSoldier {
+    height: 70%;
+}
+
+.Australy {
+    background-color: rgb(68, 163, 127);
+}
+
+.Asia {
+    background-color: rgb(206, 118, 36);
+}
+
+.USA {
+    background-color: rgb(160, 160, 160);
+}
+
+.EUROPE {
+    background-color: rgb(75, 138, 255);
+}
+
+.Africa {
+    background-color: rgb(255, 82, 82);
+}
+
+.soldierImg {
+    width: 25%;
+}
+
+button {
+    background-color: rgb(112, 112, 112);
+    background-image: linear-gradient(90deg, rgb(201, 219, 185) 0%, rgb(112, 112, 112) 74%);
+    border-radius: 20px;
+    border: 1px solid rgb(112, 112, 112);
+    color: #e9e9e9;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 2rem;
+    width: fit-content;
+}
+
+.win{
+    font-weight: bolder;
+    font-size: large;
+}

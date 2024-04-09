@@ -1,0 +1,15 @@
+body{
+	background-color: #c7ab7b;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	align-items: center;
+    text-align: center;
+    display: grid;
+	height: 100vh;
+	place-items: center;
+}
+
+#logo{
+    width: 90%;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/game.css" rel="stylesheet" />
+    <link href="../css/basic.css" rel="stylesheet" />
+    <title>MONOPOLY</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="masseges">
+            <div id="cubeContainer">
+                <div id="cube">
+                    <div class="cube"><img src="../pictures/cube6.png" id="cube1"></div>
+                    <div class="cube" id="cube2container"><img src="../pictures/cube6.png" id="cube2"></div>
+                </div>
+                <button onclick="play()">PLAY</button>
+            </div>
+            <div id="alerts">
+                <img src="../pictures/soldier1.png" id="soldier">
+                <div id="playerNumber">PLAYER NUMBER 1</div>
+                <form>
+                    <input type="text" placeholder="ENTER YOUR NAME" id="playerName">
+                </form>
+                <button onclick="GetPlayer()">NEXT</button>
+            </div>
+        </div>
+        <div id="board">
+            <div id="board1">
+                <div class="place deg180" id="place11"></div>
+                <div class="place deg180" id="place12"></div>
+                <div class="place deg180" id="place13"></div>
+                <div class="place deg180" id="place14"></div>
+                <div class="place deg180" id="place15"></div>
+                <div class="place deg180" id="place16"></div>
+            </div>
+            <div id="board2">
+                <div id="deg90">
+                    <div class="place deg90" id="place10"></div>
+                    <div class="place deg90" id="place9"></div>
+                    <div class="place deg90" id="place8"></div>
+                    <div class="place deg90" id="place7"></div>
+                </div>
+                <div id="center">
+                </div>
+                <div id="deg270">
+                    <div class="place deg270" id="place17"></div>
+                    <div class="place deg270" id="place18"></div>
+                    <div class="place deg270" id="place19"></div>
+                    <div class="place deg270" id="place20"></div>
+                </div>
+            </div>
+            <div id="board3">
+                <div class="place" id="place6"></div>
+                <div class="place" id="place5"></div>
+                <div class="place" id="place4"></div>
+                <div class="place" id="place3"></div>
+                <div class="place" id="place2"></div>
+                <div class="place" id="place1"></div>
+            </div>
+        </div>
+        <div id="players">
+            <div class="player" id="player1"></div>
+            <div class="player" id="player2"></div>
+            <div class="player" id="player3"></div>
+            <div class="player" id="player4"></div>
+        </div>
+
+    </div>
+
+</body>
+<script src="../js/game.js"></script>
+
+</html>

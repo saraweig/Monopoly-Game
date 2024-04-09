@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+}
+
+.version{
+    display: grid;
+    width: 55%;
+    padding: 0%;
+    margin: 5%;
+    align-items: center;
+    align-content: center;
+}
+
+.img{
+    width: 100%;
+    aspect-ratio : 3 / 2;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px;
+}
+
+#logo{
+    width: 25%;
+}
