@@ -17,7 +17,7 @@ Board Layout: Displays the game board and tracks player movements.
 ## How to Play
 Clone the repository to your local machine.
 
-Open the index.html file in your web browser to start the game.
+Open the `choosing.html` file in your web browser to start the game.
 
 Enter player names and follow the on-screen instructions to play.
 
